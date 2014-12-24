@@ -1,6 +1,7 @@
 ;;; go-flycheck.el --- goflymake flycheck checker
 
 ;; Author: Peter Vasil <mail@petervasil.net>
+;; Version: 0.1
 ;; Package-Requires: ((go-mode "0") (flycheck "0.18"))
 
 ;;; Commentary:
@@ -18,7 +19,7 @@
   (require 'flycheck))
 
 (defgroup goflymake nil
-  "Support for Flymake in Go via goflymake"
+  "Support for Flycheck in Go via goflymake"
   :group 'go)
 
 (defcustom goflymake-debug nil
